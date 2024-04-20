@@ -23,7 +23,7 @@ const Navbar = () => {
                 }} >
                     
                     <img src={MyPicture}  alt="logo" className="w-9 h-9 object-contain rounded-full" />
-                    <p className="text-white text-[18px] font-bold cursor-pointer " > Nithya Prakash</p>
+                    <p className="text-white text-[18px] font-bold cursor-pointer " > Nithya Prakash A V</p>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10 " >
                     {navLinks.map((link)=>(
