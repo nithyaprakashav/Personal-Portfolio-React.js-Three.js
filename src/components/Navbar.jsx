@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logo, menu , close } from "../assets";
+import MyPicture from "../assets/MyPicture.jpg"
 
 
 
 const Navbar = () => {
 
     const[active , setActive] = useState('')
+    
 
     return ( 
         <nav
@@ -19,8 +21,23 @@ const Navbar = () => {
                     setActive(" ")
                     window.scrollTo(0,0)
                 }} >
-                    <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+                    
+                    <img src={MyPicture}  alt="logo" className="w-9 h-9 object-contain rounded-full" />
+                    <p className="text-white text-[18px] font-bold cursor-pointer " > Nithya Prakash</p>
                 </Link>
+                <ul className="list-none hidden sm:flex flex-row gap-10 " >
+                    {navLinks.map((link)=>(
+                        <li
+                        key={link.id}
+                        className={`${
+                            active === link.title ? "text-white" : "text-secondary"
+                        } hover:text-white text-[18px] font-medium cursor-pointer `}
+                        onClick={()=> setActive(`${link.title}`)}
+                        >
+                            <a href={`#${link.id}`}>{link.title}</a>
+                        </li>
+                    ))}
+                </ul>
             </div>
         </nav>
      );
