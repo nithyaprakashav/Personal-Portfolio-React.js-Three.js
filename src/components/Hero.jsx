@@ -11,7 +11,19 @@ const Hero = () => {
                     <div className='w-5 h-5 rounded-full bg-[#915eff] ' />
                     <div className='w-1 sm:h-80 h-40 violet-gradient' />
                 </div>
+
+                <div>
+                    <h1 className={`${styles.heroHeadText} text-white`} >Hi , I'm <span className='text-[#915eff]' > Nithya Prakash</span></h1>
+                    <p className={`${styles.heroSubText} mt-2 text-white-100 `} >
+                        I'm a Full Stack Web Developer, skilled in MERN Stack,<br className='sm:block hidden' /> proficient in Java, JavaScript, and Python.
+                    </p>
+
+                </div>
+
             </div>
+
+            <ComputersCanvas/>
+
         </section>
      );
 }
