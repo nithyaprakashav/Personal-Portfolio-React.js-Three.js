@@ -247,4 +247,4 @@ import {
     },
   ];
   
-  export { services, technologies, projects };
+  export { services, technologies, projects,experiences };
