@@ -12,11 +12,11 @@ const App = ()=> {
           <Navbar/>
           <Hero/>
         </div>
-        <About/> 
+        {/* <About/>  */}
       </div>
-      {/* <div className="relative z-0 bg-primary ">
+      <div className="relative z-0 bg-primary ">
         <About/>
-      </div> */}
+      </div>
     </BrowserRouter>
   )
 }
