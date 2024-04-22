@@ -11,10 +11,20 @@ const Experience = () => {
     return ( 
         <>
             <motion.div variants={textVariant()} >
-
+            <p className={`${styles.sectionSubText}  `}  >My work so far</p>
+            <h2 className={`${styles.sectionHeadText}`} >Overview.</h2>
             </motion.div>
+
+            <div className="mt-20 flex flex-col" >
+                <VerticalTimeline>
+                    {experiences.map((experience,index)=>{
+                        <ExperienceCard experience={experience} key={index} />
+                    })}
+                </VerticalTimeline>
+            </div>
+
         </>
      );
 }
  
-export default Experience;
+export default SectionWrapper(Experience, "work");
