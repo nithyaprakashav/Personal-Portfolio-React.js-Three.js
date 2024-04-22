@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
+import Experience from "./components/Experience"
 
 
 const App = ()=> {
@@ -12,11 +13,12 @@ const App = ()=> {
           <Navbar/>
           <Hero/>
         </div>
-        {/* <About/>  */}
+        <About/> 
+        <Experience/>
       </div>
-      <div className="relative z-0 bg-primary ">
+      {/* <div className="relative z-0 bg-primary ">
         <About/>
-      </div>
+      </div> */}
     </BrowserRouter>
   )
 }
