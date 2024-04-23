@@ -23,7 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
-    spmlogo
+    spmlogo,
+    python,
+    java,
+    bootstrap,
+    express,
+    chakraui
   } from "../assets";
   
   export const navLinks = [
@@ -59,20 +64,29 @@ import {
   
   const technologies = [
     {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Express JS",
+      icon: express,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+   
+    {
       name: "HTML 5",
       icon: html,
     },
     {
       name: "CSS 3",
       icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
     },
     {
       name: "Redux Toolkit",
@@ -83,16 +97,28 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "BootStrap",
+      icon: bootstrap,
+    },
+    {
+      name: "Chakra UI",
+      icon: chakraui,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "git",
