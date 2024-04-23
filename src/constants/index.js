@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    spmlogo
   } from "../assets";
   
   export const navLinks = [
@@ -103,7 +104,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "SPM Global Technologies",
-      icon: starbucks,
+      icon: spmlogo,
       iconBg: "#383E56",
       date: "October 2023 - April 2024",
       points: [
