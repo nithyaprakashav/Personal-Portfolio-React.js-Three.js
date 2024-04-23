@@ -211,8 +211,8 @@ import {
   const projects = [
     {
       name: "BREADS - Meta's Threads app with Direct Message Chat Feature",
-      description:
-        "Web-based Social Media platform that allows users to Create/Login account ,create/Update their profile along with the Profile picture ,Add their post with text/images ,like/unlike other users' posts, Follow/Unfollow other users and send personal messages to the users they follow ",
+      description:"An exact clone of Threads app with added Chat feature that allows users to send Direct messages(personal messages) to the users they follow making it more feature rich than the original Threads app." 
+      ,
       tags: [
         {
           name: "react",
@@ -223,8 +223,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "mernstack",
           color: "pink-text-gradient",
+        },
+        {
+          name: "chakraui",
+          color: "orange-text-gradient",
         },
       ],
       image: carrent,
@@ -233,20 +237,21 @@ import {
     {
       name: "FriendsHive - A MERN Stack Social Media App",
       description:
-        "An exact clone of Threads app with added Chat feature that allows users to send Direct messages(personal messages) to the users they follow making it more feature rich than the original Threads app.",
+        "Web-based Social Media platform that allows users to Create/Login account ,create/Update their profile along with the Profile picture ,Add their post with text/images ,like/unlike other users' posts, Follow/Unfollow other users and send personal messages to the users they follow "
+        ,
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "mernstack",
+          color: "pink-text-gradient",
         },
         {
-            name: "mongodb",
-            color: "green-text-gradient",
-          },
+          name: "reduxtoolkit",
+          color: "green-text-gradient",
+        },
       ],
       image: jobit,
       source_code_link: "https://github.com/nithyaprakashav/FriendsHive-SocialMediaApp-MERN",
@@ -261,8 +266,8 @@ import {
           color: "green-text-gradient",
         },
         {
-            name: "mongodb",
-            color: "green-text-gradient",
+          name: "mernstack",
+          color: "pink-text-gradient",
         },
         {
           name: "css",
