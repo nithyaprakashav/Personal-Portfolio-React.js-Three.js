@@ -19,7 +19,9 @@ const Ball = (props) => {
           color="#fff8eb"
           polygonOffset polygonOffsetFactor={-5} flatShading
         />
-        <Decal position={[0,0,1]} map={decal} rotation={[2*Math.PI,0,6.25]} />
+        <Decal position={[0,0,1]} map={decal} rotation={[2*Math.PI,0,6.25]} 
+          flatShading
+        />
       </mesh>
     </Float>
   )
@@ -38,6 +40,7 @@ const BallCanvas = ({icon}) => {
         />
 
         <Ball  imgUrl={icon}/>
+      
 
       </Suspense>
       <Preload all />
