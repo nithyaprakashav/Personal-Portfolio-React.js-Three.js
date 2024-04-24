@@ -25,6 +25,9 @@ import java from "./tech/Java.png"
 import express from "./tech/express.png"
 import chakraui from "./tech/chakraUI.png"
 import bootstrap from "./tech/bootstrap.png"
+import javabasic from "./javabasic.jpg"
+import javascriptinter from "./javascript.jpg"
+import problemsolving from "./problemsolving.jpg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -70,5 +73,8 @@ export {
   express,
   bootstrap,
   chakraui,
-  java
+  java,
+  javabasic,
+  javascriptinter,
+  problemsolving
 };
