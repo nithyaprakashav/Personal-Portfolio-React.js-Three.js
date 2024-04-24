@@ -7,7 +7,7 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Feedbacks from "./components/Feedbacks"
 import Certifications from "./components/Certifications"
-
+import Contact from "./components/Contact"
 
 const App = ()=> {
   return (
@@ -23,6 +23,7 @@ const App = ()=> {
         <Projects/>
         <Feedbacks/>
         <Certifications/>
+        <Contact/>
       </div>
       {/* <div className="relative z-0 bg-primary ">
         <About/>
