@@ -6,6 +6,7 @@ import Experience from "./components/Experience"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Feedbacks from "./components/Feedbacks"
+import Certifications from "./components/Certifications"
 
 
 const App = ()=> {
@@ -21,6 +22,7 @@ const App = ()=> {
         <Skills/>
         <Projects/>
         <Feedbacks/>
+        <Certifications/>
       </div>
       {/* <div className="relative z-0 bg-primary ">
         <About/>
