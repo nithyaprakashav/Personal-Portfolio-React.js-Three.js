@@ -5,6 +5,8 @@ import About from "./components/About"
 import Experience from "./components/Experience"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
+import Feedbacks from "./components/Feedbacks"
+
 
 const App = ()=> {
   return (
@@ -18,6 +20,7 @@ const App = ()=> {
         <Experience/>
         <Skills/>
         <Projects/>
+        <Feedbacks/>
       </div>
       {/* <div className="relative z-0 bg-primary ">
         <About/>
