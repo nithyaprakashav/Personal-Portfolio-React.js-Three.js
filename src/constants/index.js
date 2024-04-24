@@ -28,7 +28,10 @@ import {
     java,
     bootstrap,
     express,
-    chakraui
+    chakraui,
+    javabasic,
+    javascriptinter,
+    problemsolving
   } from "../assets";
   
   export const navLinks = [
@@ -207,6 +210,30 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
+  const certifications = [
+    {
+      name: "HackerRank Certification in Java(Basic)",
+      skill:"Java",
+      company: "HackerRank",
+      image: javabasic,
+      source_code_link:"https://www.hackerrank.com/certificates/429f162f54fe",
+    },
+    {
+      
+      name: "HackerRank Certification in JavaScript(Intermediate)",
+      skill: "JavaScript",
+      company: "HackerRank",
+      image: javascriptinter,
+      source_code_link:"https://www.hackerrank.com/certificates/c05517ad5fd0",
+    },
+    {
+      name: "HackerRank Certification in Problem Solving(Intermediate)",
+      skill: "Problem Solving",
+      company: "HackerRank",
+      image: problemsolving,
+      source_code_link:"https://www.hackerrank.com/certificates/1817cdf58f07",
+    },
+  ];
   
   const projects = [
     {
@@ -279,4 +306,4 @@ import {
     },
   ];
   
-  export { services, technologies, projects,experiences,testimonials };
+  export { services, technologies, projects,experiences,testimonials,certifications };
