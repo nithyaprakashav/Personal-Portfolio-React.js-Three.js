@@ -8,7 +8,7 @@ import Projects from "./components/Projects"
 import Feedbacks from "./components/Feedbacks"
 import Certifications from "./components/Certifications"
 import Contact from "./components/Contact"
-import Stars from "./components/canvas/Stars"
+import StarsCanvas from "./components/canvas/Stars"
 
 const App = ()=> {
   return (
@@ -26,7 +26,7 @@ const App = ()=> {
         <Certifications/>
         <div className="relative z-0" >
             <Contact/>
-            <Stars/>
+            <StarsCanvas/>
         </div>
       </div>
       {/* <div className="relative z-0 bg-primary ">
