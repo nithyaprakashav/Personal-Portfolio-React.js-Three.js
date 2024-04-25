@@ -5,7 +5,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { certifications } from "../constants";
 import { IoIosLink } from "react-icons/io";
 import { Tilt } from "react-tilt";
-
+import { TiPinOutline } from "react-icons/ti";
 
 const CertificateCard = ({name, skill, company, image, source_code_link , index}) => {
     return (
@@ -26,9 +26,9 @@ const CertificateCard = ({name, skill, company, image, source_code_link , index}
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover "
             >
                 <div
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                    className=" w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
                 >
-                    <IoIosLink className="text-white" />
+                    <TiPinOutline className="text-white scale-[1.6] " />
                 </div>
             </div>
 
