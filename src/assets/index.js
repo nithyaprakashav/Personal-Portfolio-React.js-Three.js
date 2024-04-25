@@ -28,6 +28,8 @@ import bootstrap from "./tech/bootstrap.png"
 import javabasic from "./javabasic.jpg"
 import javascriptinter from "./javascript.jpg"
 import problemsolving from "./problemsolving.jpg"
+import mernstack from "./tech/mernstack.png"
+import mern from "./tech/mernlogo.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -76,5 +78,7 @@ export {
   java,
   javabasic,
   javascriptinter,
-  problemsolving
+  problemsolving,
+  mernstack,
+  mern
 };
