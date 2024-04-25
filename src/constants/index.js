@@ -31,7 +31,9 @@ import {
     chakraui,
     javabasic,
     javascriptinter,
-    problemsolving
+    problemsolving,
+    mernstack,
+    mern
   } from "../assets";
   
   export const navLinks = [
@@ -44,6 +46,10 @@ import {
       title: "Work",
     },
     {
+      id:"projects",
+      title:"Projects"
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -51,12 +57,12 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "React JS Developer",
+      icon: reactjs,
     },
     {
       title: "Full Stack Developer (MERN Stack) ",
-      icon: web,
+      icon: mern,
     },
     {
       title: "Backend Developer",
@@ -238,7 +244,7 @@ import {
   const projects = [
     {
       name: "BREADS - Meta's Threads app with Direct Message Chat Feature",
-      description:"An exact clone of Threads app with added Chat feature that allows users to send Direct messages(personal messages) to the users they follow making it more feature rich than the original Threads app." 
+      description:"Developed an exact clone of the Threads app entails replicating its core functionalities while integrating an additional Chat feature. This enhancement enables users to exchange Direct messages, enriching their communication experience beyond the original Threads app." 
       ,
       tags: [
         {
@@ -264,7 +270,7 @@ import {
     {
       name: "FriendsHive - A MERN Stack Social Media App",
       description:
-        "Web-based Social Media platform that allows users to Create/Login account ,create/Update their profile along with the Profile picture ,Add their post with text/images ,like/unlike other users' posts, Follow/Unfollow other users and send personal messages to the users they follow "
+        "Web-based social media platform enabling account creation/login, profile customization including profile picture upload, posting content with text/images, interaction with posts through likes/unlikes, and following/unfollowing other users."
         ,
       tags: [
         {
@@ -286,7 +292,7 @@ import {
     {
       name: "Track Your Training",
       description:
-        "A Web app built using MERN Stack technology that allows users to track their training sessions and their workouts along with its details by posting it in their dashboard along with the date and time. ",
+        "A web application built using MERN Stack technology, enabling users to track their training sessions and workouts. Post session details on your personalized dashboard, including dates and times, for comprehensive tracking and analysis. ",
       tags: [
         {
           name: "react",
