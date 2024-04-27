@@ -2,16 +2,23 @@ import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser"
 import { styles } from "../style";
-import { EarthCanvas } from "./canvas";
+
 import SectionWrapper from "../hoc/SectionWrapper";
 import { slideIn } from "../utils/motion";
-import Socials from "./Socials";
+import Socials from "./Socials"
+
+
+
+//template_xbdijc8
+//service_r77accg
+//eot5UpXGDNF7sEjnD
 
 
 
 
 const Contact = () => {
 
+    
     const formRef = useRef()
     const[form , setForm] = useState({
         name:'',
@@ -20,12 +27,48 @@ const Contact = () => {
     })
     const[isLoading , setIsLoading] = useState(false)
 
-    const handleChange = (e) => {}
+    const handleChange = (e) => {
+        const {name , value} = e.target
+        setForm({...form ,[name]: value })
+    }
 
-    const handleSubmit = (e) => {}
+    
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setIsLoading(true)
+        emailjs.send(
+            "service_r77accg",
+            "template_xbdijc8",
+            {
+                from_name: form.name,
+                to_Name: "Nithya Prakash A V",
+                from_email: form.email,
+                to_email:"nithyaprakashavjobs@gmail.com",
+                message:form.message
+            },
+            "eot5UpXGDNF7sEjnD"
+            ).then(()=>{
+                setIsLoading(false)
+                alert("Thank you. I will get back to you as soon as possible.")
+                
+                setForm({
+                    name:"",
+                    email:"",
+                    message:""
+                })
+            },(error)=>{
+                setIsLoading(false)
+                console.log(error.message)
+                alert('Something went wrong.')
+    })
+    }
 
     return ( 
-        <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden " >
+        
+            <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden " >
+
+            
             <motion.div variants={slideIn("left","tween",0.2 , 1)}
                 className="flex-[1.4] bg-black-100 p-8 rounded-2xl  "
             >
@@ -77,8 +120,7 @@ const Contact = () => {
                 </form>
 
             </motion.div>
-
-            
+                
             <motion.div
                 variants={slideIn("right", "tween", 0.2, 1)}
                 className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
@@ -88,6 +130,8 @@ const Contact = () => {
                     
 
         </div>
+        
+        
      );
 }
  
