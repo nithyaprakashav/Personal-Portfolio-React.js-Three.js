@@ -33,7 +33,9 @@ import {
     javascriptinter,
     problemsolving,
     mernstack,
-    mern
+    mern,
+    tyt,
+    breads
   } from "../assets";
   
   export const navLinks = [
@@ -264,7 +266,7 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: carrent,
+      image: breads,
       source_code_link: "https://github.com/nithyaprakashav/BREADS-Threads-app-with-Chat-feature",
     },
     {
@@ -307,7 +309,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: tyt,
       source_code_link: "https://github.com/nithyaprakashav/Track-Your-Training-MERN-App",
     },
   ];
