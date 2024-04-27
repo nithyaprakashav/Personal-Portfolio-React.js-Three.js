@@ -8,7 +8,7 @@ import Projects from "./components/Projects"
 import Feedbacks from "./components/Feedbacks"
 import Certifications from "./components/Certifications"
 import Contact from "./components/Contact"
-import Socials from "./components/Socials"
+
 
 
 const App = ()=> {

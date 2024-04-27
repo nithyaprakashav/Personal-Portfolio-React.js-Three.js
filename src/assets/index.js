@@ -40,6 +40,8 @@ import spmlogo from "./company/SPM logo.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tyt from "./TYT.png"
+import breads from './Breads.png'
 
 export {
   logo,
@@ -80,5 +82,7 @@ export {
   javascriptinter,
   problemsolving,
   mernstack,
-  mern
+  mern,
+  tyt,
+  breads
 };
