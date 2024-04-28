@@ -22,6 +22,7 @@ const App = ()=> {
         <About/> 
         <Experience/>
         <Skills/>
+        <Projects/>
         <Certifications/>
         <div className="relative z-0" >
             <Contact/>
