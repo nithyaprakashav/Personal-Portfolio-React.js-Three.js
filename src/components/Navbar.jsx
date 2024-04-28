@@ -30,7 +30,7 @@ const Navbar = () => {
                 </Link>
 
                 <div className="flex items-center gap-2" onClick={()=>{
-                    window.open("https://drive.google.com/file/d/1Z1JbJPuwPvdhPArz9aC5aDO2mXtTdW5R/view?usp=sharing")
+                    window.open("https://drive.google.com/file/d/1RcyyqVM1ilTzBhsHLLKHqRnQuRXcd8AD/view?usp=drive_link")
                 }} >
                     <div className="border-white border bg-tertiary rounded-lg px-3 py-1 flex items-center cursor-pointer">
                         <MdOutlineFileDownload className="w-5 h-5 mr-2 fill-current text-white" />
