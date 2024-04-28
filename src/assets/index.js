@@ -42,6 +42,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import tyt from "./TYT.png"
 import breads from './Breads.png'
+import friendshive from "./friendshive.png"
 
 export {
   logo,
@@ -84,5 +85,6 @@ export {
   mernstack,
   mern,
   tyt,
-  breads
+  breads,
+  friendshive
 };

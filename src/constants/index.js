@@ -35,7 +35,8 @@ import {
     mernstack,
     mern,
     tyt,
-    breads
+    breads,
+    friendshive
   } from "../assets";
   
   export const navLinks = [
@@ -288,7 +289,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: jobit,
+      image: friendshive,
       source_code_link: "https://github.com/nithyaprakashav/FriendsHive-SocialMediaApp-MERN",
     },
     {
