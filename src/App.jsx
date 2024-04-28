@@ -22,8 +22,6 @@ const App = ()=> {
         <About/> 
         <Experience/>
         <Skills/>
-        <Projects/>
-        <Feedbacks/>
         <Certifications/>
         <div className="relative z-0" >
             <Contact/>
