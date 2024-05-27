@@ -269,6 +269,7 @@ import {
       ],
       image: breads,
       source_code_link: "https://github.com/nithyaprakashav/BREADS-Threads-app-with-Chat-feature",
+      deployed_link:"https://breads-threads-with-chatfeature.onrender.com/"
     },
     {
       name: "FriendsHive - A MERN Stack Social Media App",
@@ -291,6 +292,7 @@ import {
       ],
       image: friendshive,
       source_code_link: "https://github.com/nithyaprakashav/FriendsHive-SocialMediaApp-MERN",
+      deployed_link:""
     },
     {
       name: "Track Your Training",
@@ -312,6 +314,7 @@ import {
       ],
       image: tyt,
       source_code_link: "https://github.com/nithyaprakashav/Track-Your-Training-MERN-App",
+      deployed_link:""
     },
   ];
   
