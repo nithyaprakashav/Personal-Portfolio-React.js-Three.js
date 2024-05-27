@@ -13,6 +13,7 @@ const ProjectCard = ({index , name , description , tags , image , source_code_li
         onClick={()=>{
             window.open(deployed_link,"_blank")
         }}
+        className="cursor-pointer"
         >
         <motion.div variants={fadeIn("up" ,"spring" , index*0.5,0.75 )} >
             <Tilt
