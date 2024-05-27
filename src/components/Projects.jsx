@@ -9,6 +9,11 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({index , name , description , tags , image , source_code_link,deployed_link}) => {
     return (
+        <div 
+        onClick={()=>{
+            window.open(deployed_link,"_blank")
+        }}
+        >
         <motion.div variants={fadeIn("up" ,"spring" , index*0.5,0.75 )} >
             <Tilt
                 options={{
@@ -20,9 +25,7 @@ const ProjectCard = ({index , name , description , tags , image , source_code_li
                 
             >
                 <div className="relative w-full h-[230px]  "
-                    onClick={()=>{
-                        window.open(deployed_link,"_blank")
-                    }}
+                    
                 >
                     <img src={image} alt={name} 
                         className="w-full h-full object-cover rounded-2xl"
@@ -56,6 +59,7 @@ const ProjectCard = ({index , name , description , tags , image , source_code_li
 
             </Tilt>
         </motion.div>
+        </div>
     )
 }
 
